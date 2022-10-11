@@ -11,6 +11,7 @@ The best model is the one using day features, but this leads to an intraday pred
 The model using sin and cos has performed in exactly the same way as the model with additional features averaged with the median by month (R2 = 0.76, MAE = 4.25-4.29).\
 The model with only one cos feature performed slightly worse (R2 = 0.71, MAE = 4.57).\
 So, the model with both cos and sin features proved to be the best model for long-run prediction.
+![optimal_model](https://user-images.githubusercontent.com/115416894/195062874-df404ad4-a067-4b1e-b9c6-7f5572272171.png)
 ## Libraries and technologies
 1) urllib.request
 2) pandas
@@ -20,7 +21,7 @@ So, the model with both cos and sin features proved to be the best model for lon
 6) sklearn.linear_model (LinearRegression)
 7) sklearn.metrics (mean_absolute_error)
 ## Links
-URLs:\
-- to dowload the file:\
-http://37.9.3.250/download/files.synop/27/27514.01.01.2016.01.01.2022.1.0.0.ru.utf8.00000000.csv.gz\
-- to see the website:\ https://rp5.ru/%D0%90%D1%80%D1%85%D0%B8%D0%B2_%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B_%D0%B2_%D0%A8%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%82%D1%8C%D0%B5%D0%B2%D0%BE,_%D0%B8%D0%BC._%D0%90._%D0%A1._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_(%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82)
+URLs:
+- to dowload the file:
+http://37.9.3.250/download/files.synop/27/27514.01.01.2016.01.01.2022.1.0.0.ru.utf8.00000000.csv.gz
+- to see the website: https://rp5.ru/%D0%90%D1%80%D1%85%D0%B8%D0%B2_%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D1%8B_%D0%B2_%D0%A8%D0%B5%D1%80%D0%B5%D0%BC%D0%B5%D1%82%D1%8C%D0%B5%D0%B2%D0%BE,_%D0%B8%D0%BC._%D0%90._%D0%A1._%D0%9F%D1%83%D1%88%D0%BA%D0%B8%D0%BD%D0%B0_(%D0%B0%D1%8D%D1%80%D0%BE%D0%BF%D0%BE%D1%80%D1%82)
